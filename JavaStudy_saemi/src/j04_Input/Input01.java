@@ -12,6 +12,11 @@ public class Input01 {
 //		
 //		System.out.println("입력한 값: " + num);
 		
+		/*
+		 * 문제
+		 * 년도를 입력 받아 윤년인지 아닌지 값 출력
+		 */
+		
 		System.out.print("년도를 입력하세요: ");
 		
 		int year = scanner.nextInt(); //입력 한 값을 변수 year에 담음

@@ -12,7 +12,7 @@ public class Operation07 {
 		
 		String result = year % 4 == 0 
 				&& year % 100 != 0 
-				|| year % 400 == 0 ? "윤년" : "윤년이 아님";
+				|| year % 400 == 0 ? "윤년" : "윤년이 아님"; //조건 연산자
 		
 		System.out.println("결과: " + result);
 	}
